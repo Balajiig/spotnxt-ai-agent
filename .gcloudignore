@@ -1,0 +1,19 @@
+# Standard .gcloudignore for Python/FASTAPI projects
+.gcloudignore
+.gitignore
+
+# Python
+__pycache__/
+
+
+# Local files
+.env
+
+
+
+# Virtual environment
+agent-venv/
+
+# Alembic temp files
+alembic/__pycache__/
+*.pyc
